@@ -1,0 +1,22 @@
+{
+    "name": "azay/qr",
+    "description": "QR generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "azay-ru",
+            "email": "azay.dev@inbox.ru"
+        }
+    ],
+    "keywords": ["qr", "generator"],
+    "require": {
+        "php": ">=7.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azay\\Qr\\": "src/"
+        }
+    }
+}
